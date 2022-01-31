@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="index.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1 class="heading">Memory game</h1>
+    <div class="container">
+      <div class="row">
+        <div class="column" id="one" onclick="fun(0); this.onclick=null;"></div>
+        <div class="column" id="two" onclick="fun(1);this.onclick=null;"></div>
+        <div
+          class="column"
+          id="three"
+          onclick="fun(2);this.onclick=null;"
+        ></div>
+      </div>
+
+      <div class="row">
+        <div class="column" id="four" onclick="fun(3);this.onclick=null;"></div>
+        <div class="column" id="five" onclick="fun(4);this.onclick=null;"></div>
+        <div class="column" id="six" onclick="fun(5);this.onclick=null; "></div>
+      </div>
+    </div>
+    <!--dgsg-->
+    <!--dgsg-->
+    <!--dgsg-->
+    <!--dgsg-->
+
+    <h4 class="heading1">Result :-</h4>
+
+    <div class="results">
+      <h3 id="wonc"></h3>
+      <h3 id="noOfTry"></h3>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

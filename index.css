@@ -1,0 +1,46 @@
+/* 
+ .coloumn {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+ //Clear floats after image containers 
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+} */
+
+h1 {
+  color: coral;
+  text-align: center;
+}
+
+h4,
+h3 {
+  color: black;
+  padding-left: 385px;
+}
+
+.container {
+  margin-left: 30%;
+}
+
+.row {
+  display: flex;
+}
+img {
+  height: 150px;
+  width: 150px;
+}
+.column {
+  background-color: green;
+  height: 150px;
+  width: 150px;
+  border: 2px solid white;
+}
+
+.results {
+  text-align: center;
+}
